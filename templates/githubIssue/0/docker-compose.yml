@@ -1,0 +1,4 @@
+debug-service:
+  image: redis
+  external_links:
+    - ${MONGO_SERVICE}:mongo

@@ -1,0 +1,10 @@
+.catalog:
+  name: "Test Issue #3929"
+  version: "0.1"
+  description: "Issue 3929"
+  questions:
+    - variable: MONGO_SERVICE
+      description: "Choose the Mongo database"
+      label: "Mongo Service"
+      type: "service"
+      required: true
